@@ -9,7 +9,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Loading image
-img=cv2.imread("E:/Work_Space/Python/Project/m1.jpg",1)
+img=cv2.imread("m1.jpg",1)
 
 # Resizing to width=350
 img = imutils.resize(img, width=350)
